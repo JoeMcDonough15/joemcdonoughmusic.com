@@ -1,0 +1,127 @@
+body{
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    height:300px;
+    width:100%;
+    background-image:url("../images/indexHeader1.jpg");
+    background-repeat:no-repeat;
+    /* background-size:100%; */
+    
+}
+
+#main-header h3{
+    font-family:'Courier New', Courier, monospace;
+    position:absolute;
+    left:5px;
+    color:whitesmoke;
+}
+    
+#nav-bar{
+    background-color:black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#nav-bar ul{
+    padding:0;
+    list-style:none;
+}
+
+#nav-bar li{
+    display:inline;
+}
+
+#nav-bar a{
+    color:whitesmoke;
+    text-decoration:none;
+    font-size: 16px;
+    padding-right:70px;
+}
+
+#showcase{
+    background-image:url("../images/1920\'s\ Olds\ Standard.jpg");
+    background-position:center right; 
+    /* background-size:100%; */
+    background-repeat:no-repeat;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+#showcase h1{
+    color:whitesmoke;
+    font-size:50px;
+    line-height:1.6em;
+    padding-top:30px; 
+
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:darkgrey;
+    color:white;
+    padding:10px ;
+    box-sizing:border-box;
+}
+
+.main-footer{
+    display:flex;
+    justify-content:space-between;
+    background:#333;
+    color:#fff;
+    padding:0 20px;
+    margin-top:40px;   
+}
+
+.main-footer p{
+    /* display:inline; */
+}
+
+.main-footer .first{
+    /* float:left;
+    width:50%;
+    padding:0; */
+} 
+
+.main-footer .second{
+    /* float:right;
+    width:50%;
+    padding:0; */
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
+
+
+
+
+
+
